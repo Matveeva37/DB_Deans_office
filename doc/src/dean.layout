@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="300px" prefWidth="400px">
+  <widget name="button1" parent="Form" prefHeight="23px" prefWidth="71px" text="button1" type="ButtonDesignInfo">
+    <constraints height="23px" right="29px" top="168px" type="MarginConstraintsDesignInfo" width="71px"/>
+  </widget>
+  <widget name="tabbedPane" parent="Form" prefHeight="100px" prefWidth="100px" type="TabsDesignInfo">
+    <constraints bottom="10px" height="100px" left="10px" right="10px" top="10px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget name="modelGrid" parent="tabbedPane" prefHeight="72px" prefWidth="95px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <constraints tabTitle="tab0" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid1" parent="tabbedPane" prefHeight="72px" prefWidth="95px" type="DbGridDesignInfo" visible="false">
+    <treeDesignInfo/>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <constraints tabTitle="tab1" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <nonvisual name="button" prefHeight="23px" prefWidth="65px" text="button" type="ButtonDesignInfo"/>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
