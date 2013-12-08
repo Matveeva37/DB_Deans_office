@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="454px" prefWidth="846px">
+  <widget name="tab8" parent="Form" prefHeight="432px" prefWidth="816px" type="TabsDesignInfo">
+    <constraints height="432px" left="12px" top="12px" type="MarginConstraintsDesignInfo" width="816px"/>
+  </widget>
+  <widget name="panel7" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Propusk" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid7" parent="panel7" prefHeight="238px" prefWidth="787px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="pROPUSK_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522069681329" fieldName="PROPUSK_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="sTUDENTS_ID1">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522069681329" fieldName="STUDENTS_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="lESSONS">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522069681329" fieldName="LESSONS"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522069681329" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="238px" left="2px" top="25px" type="MarginConstraintsDesignInfo" width="787px"/>
+  </widget>
+  <widget actionPerformed="AddActionPerformed" name="Add" parent="panel7" prefHeight="23px" prefWidth="108px" text="Add" type="ButtonDesignInfo">
+    <constraints bottom="93px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="SaveActionPerformed" name="Save" parent="panel7" prefHeight="23px" prefWidth="108px" text="Save" type="ButtonDesignInfo">
+    <constraints bottom="57px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="DeleteActionPerformed" name="Delete" parent="panel7" prefHeight="23px" prefWidth="108px" text="Delete" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="panel6" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Lessons" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid6" parent="panel6" prefHeight="238px" prefWidth="787px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="lESSONS_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="LESSONS_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="dATE">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="DATE"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="tIME">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="TIME"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="rOOM">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="ROOM"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="dISCIPLINE_ID1">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="DISCIPLINE_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="tEACHER_ID2">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="TEACHER_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="tYPEDISCIPLINE1">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="TYPEDISCIPLINE"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="gROUPS_ID2">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522068281332" fieldName="GROUPS_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522068281332" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="238px" left="2px" top="25px" type="MarginConstraintsDesignInfo" width="787px"/>
+  </widget>
+  <widget actionPerformed="Add_1ActionPerformed" name="Add_1" parent="panel6" prefHeight="23px" prefWidth="108px" text="Add_1" type="ButtonDesignInfo">
+    <constraints bottom="93px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Save_1ActionPerformed" name="Save_1" parent="panel6" prefHeight="23px" prefWidth="108px" text="Save_1" type="ButtonDesignInfo">
+    <constraints bottom="57px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_1ActionPerformed" name="Delete_1" parent="panel6" prefHeight="23px" prefWidth="108px" text="Delete_1" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="panel5" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Teacher" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid5" parent="panel5" prefHeight="238px" prefWidth="787px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="sURNAME1">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522073726382" fieldName="SURNAME"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="nAME1">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522073726382" fieldName="NAME"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="pATRONYMIC1">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522073726382" fieldName="PATRONYMIC"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="column" title="Кафедра">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="138522062878473" fieldName="CATHEDRA_ID"/>
+        <displayField entityId="138522062878473" fieldName="NAMECATH"/>
+      </controlInfo>
+      <datamodelElement entityId="138522073726382" fieldName="CATHEDRA_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522073726382" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="238px" left="2px" top="25px" type="MarginConstraintsDesignInfo" width="787px"/>
+  </widget>
+  <widget actionPerformed="Add_2ActionPerformed" name="Add_2" parent="panel5" prefHeight="23px" prefWidth="108px" text="Add_2" type="ButtonDesignInfo">
+    <constraints bottom="93px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Save_2ActionPerformed" name="Save_2" parent="panel5" prefHeight="23px" prefWidth="108px" text="Save_2" type="ButtonDesignInfo">
+    <constraints bottom="57px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_2ActionPerformed" name="Delete_2" parent="panel5" prefHeight="23px" prefWidth="108px" text="Delete_2" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="panel4" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Type_Discipline" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid4" parent="panel4" prefHeight="238px" prefWidth="787px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="tYPEDISCIPLINE_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522077773202" fieldName="TYPEDISCIPLINE_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="tYPEDISCIPLINE">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522077773202" fieldName="TYPEDISCIPLINE"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522077773202" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="238px" left="2px" top="25px" type="MarginConstraintsDesignInfo" width="787px"/>
+  </widget>
+  <widget actionPerformed="Add_3ActionPerformed" name="Add_3" parent="panel4" prefHeight="23px" prefWidth="96px" text="Add_3" type="ButtonDesignInfo">
+    <constraints bottom="93px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Save_3ActionPerformed" name="Save_3" parent="panel4" prefHeight="23px" prefWidth="96px" text="Save_3" type="ButtonDesignInfo">
+    <constraints bottom="57px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Delete_3ActionPerformed" name="Delete_3" parent="panel4" prefHeight="23px" prefWidth="96px" text="Delete_3" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="panel3" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Discipline" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid3" parent="panel3" prefHeight="238px" prefWidth="787px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="dISCIPLINE_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522057769442" fieldName="DISCIPLINE_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="dISCIPLINE">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522057769442" fieldName="DISCIPLINE"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522057769442" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="238px" left="2px" top="25px" type="MarginConstraintsDesignInfo" width="787px"/>
+  </widget>
+  <widget actionPerformed="Add_4ActionPerformed" name="Add_4" parent="panel3" prefHeight="23px" prefWidth="96px" text="Add_4" type="ButtonDesignInfo">
+    <constraints bottom="93px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Save_4ActionPerformed" name="Save_4" parent="panel3" prefHeight="23px" prefWidth="96px" text="Save_4" type="ButtonDesignInfo">
+    <constraints bottom="57px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Delete_4ActionPerformed" name="Delete_4" parent="panel3" prefHeight="23px" prefWidth="96px" text="Delete_4" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="36px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="panel2" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Cathedra" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid2" parent="panel2" prefHeight="238px" prefWidth="787px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="cATHEDRA_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522062878473" fieldName="CATHEDRA_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="nAMECATH">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522062878473" fieldName="NAMECATH"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="tEACHER_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522062878473" fieldName="TEACHER_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522062878473" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="238px" left="2px" top="25px" type="MarginConstraintsDesignInfo" width="787px"/>
+  </widget>
+  <widget actionPerformed="Add_5ActionPerformed" name="Add_5" parent="panel2" prefHeight="23px" prefWidth="96px" text="Add_5" type="ButtonDesignInfo">
+    <constraints bottom="93px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Save_5ActionPerformed" name="Save_5" parent="panel2" prefHeight="23px" prefWidth="96px" text="Save_5" type="ButtonDesignInfo">
+    <constraints bottom="57px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Delete_5ActionPerformed" name="Delete_5" parent="panel2" prefHeight="23px" prefWidth="96px" text="Delete_5" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="panel" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Groups" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid" parent="panel" prefHeight="226px" prefWidth="789px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="gROUPS_ID1">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522066214344" fieldName="GROUPS_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="nUMBERGROUPS">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522066214344" fieldName="NUMBERGROUPS"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="cOURSE">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522066214344" fieldName="COURSE"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522066214344" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="226px" left="2px" top="25px" type="MarginConstraintsDesignInfo" width="789px"/>
+  </widget>
+  <widget actionPerformed="Add_6ActionPerformed" name="Add_6" parent="panel" prefHeight="23px" prefWidth="96px" text="Add_6" type="ButtonDesignInfo">
+    <constraints bottom="105px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Save_6ActionPerformed" name="Save_6" parent="panel" prefHeight="23px" prefWidth="96px" text="Save_6" type="ButtonDesignInfo">
+    <constraints bottom="69px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget actionPerformed="Delete_6ActionPerformed" name="Delete_6" parent="panel" prefHeight="23px" prefWidth="96px" text="Delete_6" type="ButtonDesignInfo">
+    <constraints bottom="33px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="panel1" parent="tab8" prefHeight="404px" prefWidth="811px" type="PanelDesignInfo" visible="false">
+    <layout type="MarginLayoutDesignInfo"/>
+    <constraints tabTitle="Students" type="TabsConstraintsDesignInfo"/>
+  </widget>
+  <widget name="modelGrid1" parent="panel1" prefHeight="239px" prefWidth="780px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="sTUDENTS_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522070786804" fieldName="STUDENTS_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="sURNAME">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522070786804" fieldName="SURNAME"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="nAME">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522070786804" fieldName="NAME"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="pATRONYMIC">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522070786804" fieldName="PATRONYMIC"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="aDRESS">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522070786804" fieldName="ADRESS"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="dOB">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522070786804" fieldName="DOB"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="cAPTAIN">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138522070786804" fieldName="CAPTAIN"/>
+      <columnsDisplayField/>
+    </column>
+    <column name="gROUPS_ID">
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <controlInfo classHint="DbComboDesignInfo" name="view" prefHeight="0px" prefWidth="0px">
+        <valueField entityId="138522066214344" fieldName="GROUPS_ID"/>
+        <displayField entityId="138522066214344" fieldName="NUMBERGROUPS"/>
+      </controlInfo>
+      <datamodelElement entityId="138522070786804" fieldName="GROUPS_ID"/>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138522070786804" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="239px" left="12px" top="25px" type="MarginConstraintsDesignInfo" width="780px"/>
+  </widget>
+  <widget actionPerformed="Add_7ActionPerformed" name="Add_7" parent="panel1" prefHeight="23px" prefWidth="108px" text="Add_7" type="ButtonDesignInfo">
+    <constraints bottom="93px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Save_7ActionPerformed" name="Save_7" parent="panel1" prefHeight="23px" prefWidth="108px" text="Save_7" type="ButtonDesignInfo">
+    <constraints bottom="57px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="Delete_7ActionPerformed" name="Delete_7" parent="panel1" prefHeight="23px" prefWidth="108px" text="Delete_7" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="48px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <nonvisual name="button" prefHeight="0px" prefWidth="0px" text="button" type="ButtonDesignInfo"/>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
