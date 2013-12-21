@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="281px" prefWidth="405px" windowOpened="formWindowOpened">
+  <widget name="modelFormattedField" parent="Form" prefHeight="20px" prefWidth="100px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138739132191048" fieldName="SURNAME"/>
+    <constraints height="20px" left="24px" top="24px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget name="modelFormattedField1" parent="Form" prefHeight="20px" prefWidth="100px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138739132191048" fieldName="NAME"/>
+    <constraints height="20px" left="24px" top="72px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget name="modelFormattedField2" parent="Form" prefHeight="20px" prefWidth="100px" type="DbLabelDesignInfo">
+    <datamodelElement entityId="138739132191048" fieldName="PATRONYMIC"/>
+    <constraints height="20px" left="24px" top="120px" type="MarginConstraintsDesignInfo" width="100px"/>
+  </widget>
+  <widget name="modelCombo" parent="Form" prefHeight="20px" prefWidth="156px" type="DbComboDesignInfo">
+    <valueField entityId="138742906783518" fieldName="GROUPS_ID"/>
+    <displayField entityId="138742906783518" fieldName="NUMBERGROUPS"/>
+    <datamodelElement entityId="138742906783518" fieldName="NUMBERGROUPS"/>
+    <constraints height="20px" left="24px" top="168px" type="MarginConstraintsDesignInfo" width="156px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="108px" text="Сохранить" type="ButtonDesignInfo">
+    <constraints bottom="42px" height="23px" left="24px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="108px" text="Закрыть" type="ButtonDesignInfo">
+    <constraints bottom="42px" height="23px" left="252px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

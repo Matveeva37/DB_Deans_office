@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Surname" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="12" typeName="VARCHAR"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="gStudSearch" Title="gStudSearch" entityHeight="200" entityIconified="false" entityId="138691027190550" entityLocationX="233" entityLocationY="12" entityWidth="150" queryId="gStudSearch" tableName="" tableSchemaName=""/>
+  <entity Name="groups" Title="groups" entityHeight="200" entityIconified="false" entityId="138742986089189" entityLocationX="447" entityLocationY="14" entityWidth="150" queryId="groups" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="Surname" rightEntityId="138691027190550" rightEntityParameterName="Surname"/>
+  <referenceRelation leftEntityFieldName="GROUPS_ID" leftEntityId="138691027190550" rightEntityFieldName="GROUPS_ID" rightEntityId="138742986089189"/>
+</datamodel>

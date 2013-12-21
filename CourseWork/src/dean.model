@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="765" entityLocationY="248" entityWidth="150"/>
+  <entity Name="teacher" Title="teacher" entityHeight="200" entityIconified="false" entityId="138522073726382" entityLocationX="19" entityLocationY="12" entityWidth="150" queryId="teacher" tableName="" tableSchemaName=""/>
+  <entity Name="groups" Title="groups" entityHeight="200" entityIconified="false" entityId="138522066214344" entityLocationX="557" entityLocationY="14" entityWidth="150" queryId="groups" tableName="" tableSchemaName=""/>
+  <entity Name="students" Title="students" entityHeight="200" entityIconified="false" entityId="138522070786804" entityLocationX="206" entityLocationY="234" entityWidth="150" queryId="students" tableName="" tableSchemaName=""/>
+  <entity Name="lessons" Title="lessons" entityHeight="200" entityIconified="false" entityId="138522068281332" entityLocationX="759" entityLocationY="16" entityWidth="150" queryId="lessons" tableName="" tableSchemaName=""/>
+  <entity Name="discipline" Title="discipline" entityHeight="200" entityIconified="false" entityId="138522057769442" entityLocationX="370" entityLocationY="14" entityWidth="150" queryId="discipline" tableName="" tableSchemaName=""/>
+  <entity Name="cathedra" Title="cathedra" entityHeight="200" entityIconified="false" entityId="138522062878473" entityLocationX="202" entityLocationY="13" entityWidth="150" queryId="cathedra" tableName="" tableSchemaName=""/>
+  <entity Name="propusk" Title="propusk" entityHeight="200" entityIconified="false" entityId="138522069681329" entityLocationX="14" entityLocationY="234" entityWidth="150" queryId="propusk" tableName="" tableSchemaName=""/>
+  <entity Name="typediscipline" Title="typediscipline" entityHeight="200" entityIconified="false" entityId="138522077773202" entityLocationX="421" entityLocationY="236" entityWidth="150" queryId="typediscipline" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="LESSONS" leftEntityId="138522069681329" rightEntityFieldName="LESSONS_ID" rightEntityId="138522068281332"/>
+  <referenceRelation leftEntityFieldName="TYPEDISCIPLINE" leftEntityId="138522068281332" rightEntityFieldName="TYPEDISCIPLINE_ID" rightEntityId="138522077773202"/>
+  <referenceRelation leftEntityFieldName="GROUPS_ID" leftEntityId="138522070786804" rightEntityFieldName="GROUPS_ID" rightEntityId="138522066214344"/>
+  <referenceRelation leftEntityFieldName="STUDENTS_ID" leftEntityId="138522069681329" rightEntityFieldName="STUDENTS_ID" rightEntityId="138522070786804"/>
+  <referenceRelation leftEntityFieldName="DISCIPLINE_ID" leftEntityId="138522068281332" rightEntityFieldName="DISCIPLINE_ID" rightEntityId="138522057769442"/>
+  <referenceRelation leftEntityFieldName="TEACHER_ID" leftEntityId="138522068281332" rightEntityFieldName="TEACHER_ID" rightEntityId="138522073726382"/>
+  <referenceRelation leftEntityFieldName="CATHEDRA_ID" leftEntityId="138522073726382" rightEntityFieldName="CATHEDRA_ID" rightEntityId="138522062878473"/>
+  <referenceRelation leftEntityFieldName="GROUPS_ID" leftEntityId="138522068281332" rightEntityFieldName="GROUPS_ID" rightEntityId="138522066214344"/>
+</datamodel>

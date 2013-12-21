@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="null">
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138351165067810" entityLocationX="9" entityLocationY="-1" entityWidth="147" tableName="Students"/>
+  <fieldsEntity entityHeight="189" entityIconified="false" entityId="138372583757997" entityLocationX="384" entityLocationY="0" entityWidth="137" tableName="Lessons"/>
+  <fieldsEntity entityHeight="157" entityIconified="false" entityId="138371797018056" entityLocationX="756" entityLocationY="189" entityWidth="136" tableName="Cathedra"/>
+  <fieldsEntity entityHeight="205" entityIconified="false" entityId="138372741987931" entityLocationX="277" entityLocationY="254" entityWidth="205" tableName="Propusk"/>
+  <fieldsEntity entityHeight="155" entityIconified="false" entityId="138351257198825" entityLocationX="641" entityLocationY="5" entityWidth="124" tableName="Teacher"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138520464705127" entityLocationX="579" entityLocationY="222" entityWidth="150" tableName="TypeDiscipline"/>
+  <fieldsEntity entityHeight="200" entityIconified="false" entityId="138520221367054" entityLocationX="34" entityLocationY="325" entityWidth="150" tableName="Groups"/>
+  <fieldsEntity entityHeight="157" entityIconified="false" entityId="138373149904632" entityLocationX="211" entityLocationY="-3" entityWidth="135" tableName="Discipline"/>
+</datamodel>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="teacherID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="cathedra" Title="cathedra" entityHeight="200" entityIconified="false" entityId="138621883561780" entityLocationX="451" entityLocationY="13" entityWidth="150" queryId="cathedra" tableName="" tableSchemaName=""/>
+  <entity Name="qConcreteUser" Title="qConcreteUser" entityHeight="200" entityIconified="false" entityId="138621871376098" entityLocationX="225" entityLocationY="12" entityWidth="150" queryId="qConcreteUser" tableName="" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="teacherID" rightEntityId="138621871376098" rightEntityParameterName="teacherID"/>
+  <referenceRelation leftEntityFieldName="CATHEDRA_ID" leftEntityId="138621871376098" rightEntityFieldName="CATHEDRA_ID" rightEntityId="138621883561780"/>
+</datamodel>

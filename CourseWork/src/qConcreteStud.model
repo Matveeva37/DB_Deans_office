@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Students_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="GROUPS" entityHeight="200" entityIconified="false" entityId="138742891690094" entityLocationX="443" entityLocationY="7" entityWidth="150" tableAlias="t" tableName="GROUPS" tableSchemaName=""/>
+  <entity Title="STUDENTS" entityHeight="200" entityIconified="false" entityId="138739029161482" entityLocationX="237" entityLocationY="7" entityWidth="150" tableAlias="t1" tableName="STUDENTS" tableSchemaName=""/>
+  <relation leftEntityFieldName="GROUPS_ID" leftEntityId="138739029161482" rightEntityFieldName="GROUPS_ID" rightEntityId="138742891690094"/>
+  <relation leftEntityId="-1" leftEntityParameterName="Students_ID" rightEntityFieldName="STUDENTS_ID" rightEntityId="138739029161482"/>
+</datamodel>
